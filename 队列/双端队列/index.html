@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>双端队列</title>
+</head>
+<body>
+<script src="deque_object.js"></script>
+<script>
+  const deque = new Deque();
+  deque.addFront(1);
+  deque.addBack(2);
+  console.log(deque.toString()); //1,2
+  deque.addFront(3);
+  console.log(deque.size()); //3
+  console.log(deque.toString()); //3,1,2
+  deque.removeFront();
+  console.log(deque.toString()); //1,2
+  console.log(deque.peekBack()); //2
+  console.log(deque.peekFront()); //1
+  deque.removeBack();
+  console.log(deque.isEmpty()); //false
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>普通队列</title>
+</head>
+<body>
+<script src="queue_object.js"></script>
+<script>
+  const queue = new Queue();
+  queue.enqueue(1);
+  queue.enqueue(2);
+  console.log(queue.toString()); //1,2
+  queue.enqueue(3);
+  console.log(queue.size()); //3
+  console.log(queue.isEmpty()); //false
+  queue.dequeue();
+  queue.dequeue();
+  console.log(queue.toString()); //3
+</script>
+</body>
+</html>
