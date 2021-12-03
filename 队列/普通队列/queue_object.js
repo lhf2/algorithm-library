@@ -13,7 +13,6 @@ class Queue {
 
   dequeue() {
     if (this.isEmpty()) return undefined;
-    this.count--;
     const result = this.items[this.lowCount];
     delete this.items[this.lowCount];
     this.lowCount++;
