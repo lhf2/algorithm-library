@@ -19,7 +19,7 @@ class Deque {
     }
     // 3. lowCount = 0 的情况
     else {
-      // 所有的值往后移动
+      // 所有的值往后移动（当i=1；原来0的位置变成了现在1的位置）
       for (let i = this.count; i > 0; i--) {
         this.items[i] = this.items[i - 1];
       }
