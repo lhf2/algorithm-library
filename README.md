@@ -66,3 +66,17 @@
 - [x] 交集运算：intersection(otherSet)
 - [x] 差集运算：difference(otherSet)
 - [x] 子集运算：isSubsetOf(otherSet)
+
+### 字典
+- [x] 判断是否存在：hasKey(key)
+- [x] 添加元素：set(key,value)
+- [x] 移除元素：remove(key)
+- [x] 查值：get(key)
+- [x] 清空：clear()
+- [x] 元素大小：size()
+- [x] 判空：isEmpty()
+- [x] 所有键值对数组：keyValues()
+- [x] 所有键名数组：keys()
+- [x] 所有键值数组：values()
+- [x] 迭代：forEach(callbackFn)
+- [x] 输出字符串：toString()
