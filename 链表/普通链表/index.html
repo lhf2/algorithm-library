@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>普通链表</title>
+</head>
+<body>
+<script src="LinkedList.js"></script>
+<script>
+  const list = new LinkedList();
+  list.push(1);
+  list.push(2);
+  list.push(3);
+  list.push(4);
+  list.push(5);
+  console.log(list.toString()); //1,2,3,4,5
+  console.log(list.getElementAt(2)); // Node {element: 3, next: Node}
+  list.remove(4);
+  list.insert(6, 3);
+  console.log(list.toString()); //1,2,3,6,5
+  console.log(list.indexOf(3)); //2
+</script>
+</body>
+</html>
