@@ -96,3 +96,13 @@
 2. 线性探查：重写 put 、get 、remove
 3. 双散列法
 4. 创建更好的散列函数
+
+### 二叉搜索树
+- [x] 插入新的键：insert(key)
+- [x] 中序遍历：inOrderTraverse()
+- [x] 先序遍历：preOrderTraverse()
+- [x] 后序遍历：postOrderTraverse()
+- [x] 返回树中的最小值/键：min()
+- [x] 返回树中的最大值/键：max()
+- [x] 搜索一个特定的值：search(key)
+- [x] 移除某个键：remove(key)
