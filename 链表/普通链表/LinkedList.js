@@ -133,5 +133,9 @@ export default class LinkedList {
     }
     return objString;
   }
+
+  getHead(){
+    return this.head;
+  }
 }
 

@@ -80,3 +80,19 @@
 - [x] 所有键值数组：values()
 - [x] 迭代：forEach(callbackFn)
 - [x] 输出字符串：toString()
+
+### 散列表
+- [x] 创建散列函数：hashCode(key)
+- [x] 添加新项：put(key,value)
+- [x] 查值：get(key)
+- [x] 移除：remove(key)
+- [x] 清空：clear()
+- [x] 元素大小：size()
+- [x] 判空：isEmpty()
+- [x] 输出字符串：toString()
+
+#### 解决冲突的几种方式：
+1. 分离链接（拉链法）： 重写 put 、get 、remove
+2. 线性探查：重写 put 、get 、remove
+3. 双散列法
+4. 创建更好的散列函数
