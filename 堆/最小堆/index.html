@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>最小堆</title>
+</head>
+<body>
+<script type="module">
+  import {MinHeap} from "./MinHeap.js";
+
+  const heap = new MinHeap();
+  heap.insert(2);
+  heap.insert(3);
+  heap.insert(4);
+  heap.insert(5);
+  heap.insert(1);
+  console.log(heap.size()); //5
+  console.log(heap.isEmpty()); //false
+  console.log(heap.findMiniNum()); //1
+  console.log(heap.extract()); //1
+  console.log(heap); // [2,3,4,5]
+</script>
+</body>
+</html>

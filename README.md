@@ -106,3 +106,27 @@
 - [x] 返回树中的最大值/键：max()
 - [x] 搜索一个特定的值：search(key)
 - [x] 移除某个键：remove(key)
+
+### AVL树
+- [x] 插入新的键：insert(key)
+- [x] 移除某个键：remove(key)
+
+### 堆
+#### 最小堆
+- [x] 插入新的键：insert(value) 进行上移操作
+- [x] 删除最小值：extract() 进行下沉操作
+- [x] 元素大小：size()
+- [x] 判空：isEmpty()
+- [x] 查找堆中的最小值：findMiniNum()
+
+### 排序
+- [x] 冒泡排序：bubbleSort(array)
+- [x] 选择排序：selectionSort(array)
+- [x] 插入排序：insertionSort(array)
+- [x] 希尔排序：shellSort(array)
+- [x] 归并排序：mergeSort(array)
+- [x] 快速排序：quickSort(array)
+- [x] 堆排序：heapSort(array)
+- [x] 计数排序：countingSort(array)
+- [x] 桶排序：bucketSort(array)
+- [x] 基数排序：radixSort(array)
