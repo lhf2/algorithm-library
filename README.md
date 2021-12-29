@@ -130,3 +130,12 @@
 - [x] 计数排序：countingSort(array)
 - [x] 桶排序：bucketSort(array)
 - [x] 基数排序：radixSort(array)
+
+### 图
+- [x] 添加顶点：addVertex(v)
+- [x] 添加边：addEdge(v, w)
+- [x] 返回顶点列表：getVertices()
+- [x] 返回邻接表：getAdjList(v, w)
+- [x] 输出字符串：toString()
+- [x] 广度优先搜索：bfs(graph, startVertex, callback)
+- [x] 深度优先搜索：dfs(graph, callback)

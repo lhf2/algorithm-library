@@ -8,8 +8,9 @@
     <title>字典</title>
 </head>
 <body>
-<script src="./Dictionary.js"></script>
-<script>
+<script type="module">
+  import Dictionary from "./Dictionary.js";
+
   const dic = new Dictionary();
   dic.set("Gandalf", "Gandalf@email.com");
   dic.set("John", "John@email.com");
@@ -19,7 +20,7 @@
   console.log(dic.keyValues()); //[{key: 'Gandalf', value: 'Gandalf@email.com'},{key: 'John', value: 'John@email.com'}, {key: 'Tyrion', value: 'Tyrion@email.com'}]
   console.log(dic.keys()); //['Gandalf', 'John', 'Tyrion']
   console.log(dic.values()); //['Gandalf@email.com', 'John@email.com', 'Tyrion@email.com']
-  console.log(dic.get("Tyrion")); //{key: 'Tyrion', value: 'Tyrion@email.com'}
+  console.log(dic.get("Tyrion")); //'Tyrion@email.com'
   dic.remove('John');
   console.log(dic.keys()); //['Gandalf', 'Tyrion']
   dic.forEach((k, v) => {

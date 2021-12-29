@@ -20,7 +20,7 @@ class ValuePair {
   }
 }
 
-class Dictionary {
+export default class Dictionary {
   constructor() {
     this.items = {}
   }
@@ -50,7 +50,7 @@ class Dictionary {
 
   get(key) {
     if (this.hasKey(key)) {
-      return this.items[toStrFn(key)]
+      return this.items[toStrFn(key)].value
     }
     return undefined;
   }

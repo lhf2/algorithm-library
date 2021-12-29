@@ -1,5 +1,5 @@
 // 基于数组实现的普通队列
-class Queue {
+export default class Queue {
   constructor() {
     this.items = []
   }
